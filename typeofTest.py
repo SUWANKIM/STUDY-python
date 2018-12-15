@@ -13,3 +13,6 @@ f = float(e)
 print(type(e))  #따옴표가 있으므로 e는 str type
 print(f)    #f는 float type
 #str을 int로 바꾸기 위해서는 먼저 float로 바꾼 후, int로 바꿔야 한다.
+
+g = 38.8
+print(g);
