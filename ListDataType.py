@@ -41,3 +41,24 @@ print(color)
 #remove
 color.remove('red') #'red' 라는 이름으로 데이터를 지움
 print(color)
+
+
+#파이썬은 동적할당 언어이므로 한 List에 여라가지 타입의 데이터를 넣을 수 있다.
+a = ['color', 1, 0.2]
+print(type(a[0]))
+#파이썬의 리스트는 리스트의 주소값이 생성될 때 다양한 데이터 타입을 삽입 가능
+
+
+#패킹과 언패킹
+t = [1,2,3] #1,2,3을 변수 t에 패킹
+a,b,c = t #t에 있는값을 변수 a,b,c에 언패킹
+
+print(a)
+
+#이차원 리스트
+kor = [20,40,60]
+eng = [69,38,56]
+rus = [44,66,77]
+midterm = [kor, eng, rus]
+print(midterm)
+print(midterm[0][2])
